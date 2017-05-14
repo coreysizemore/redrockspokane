@@ -1,3 +1,67 @@
 /* Wordpress Theme Color Palette */
 /* This CSS stylesheet should always be connected after the primary styles.css sheet or else the colors won't work. If no color is selected, it will default to theme default colors. */
 
+
+		
+		
+		
+		/* primary color */
+		
+		.content h1,
+		.content h3,
+		.sidebar h3,
+		.content form label,
+		.breadcrumb_wrapper span.breadcrumbs a:link, .breadcrumb_wrapper span.breadcrumbs a:visited,
+		article.blog_preview span.edit a:link, article.blog_preview span.edit a:visited,
+		article.blog_preview span.author a:link, article.blog_preview span.author a:visited, article.blog_preview span.date a:link, article.blog_preview span.date a:visited,
+		article.blog_entry .meta span.date a:link, article.blog_entry .meta span.date a:visited, article.blog_entry .meta span.author a:link, article.blog_entry .meta span.author a:visited, article.blog_entry .meta span.category a:link, article.blog_entry .meta span.category a:visited,
+		a#searchopen:link, a#searchopen:visited,
+		.sidebar a:link, .sidebar a:visited,
+		.content a:link, .content a:visited,
+		.blog_sidebar #blog_sidebar_1 ul li a:link, .blog_sidebar #blog_sidebar_1 ul li a:visited, .blog_sidebar #blog_sidebar_2 ul li a:link, .blog_sidebar #blog_sidebar_2 ul li a:visited,
+		a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited,
+		#accordion h3:hover, #accordion h3.ui-state-active,
+		#accordion div.ui-accordion-content a:link, #accordion div.ui-accordion-content a:visited,
+		#tabs ul li.ui-tabs-active a:link, #tabs ul li.ui-tabs-active a:visited,
+		#tabs div.ui-tabs-panel a:link, #tabs div.ui-tabs-panel a:visited,
+		#tabs ul li a:hover, #tabs ul li a:active,
+		.content h2.page_heading,
+		article.blog_entry .tagcloud a:link, article.blog_entry .tagcloud a:visited {
+			color: #bf1e2e;
+		}
+		
+		hr.divider,
+		.content form input[type="submit"],
+		.appointment,
+		.edit_button a:link, .edit_button a:visited,
+		#home_logo #home_page_nav ul li a:link .icon, #home_logo #home_page_nav ul li a:visited .icon,
+		.content a.button:link, .content a.button:visited {
+			background: #bf1e2e;
+		}
+		
+		.content form input[type="text"], .content form input[type="email"], .content form input[type="number"], .content form input[type="submit"], .content form textarea,
+		article.blog_entry .tagcloud a:link, article.blog_entry .tagcloud a:visited {
+			border: 1px solid #bf1e2e;
+		}
+		
+		#accordion h3 {
+			border-top: 1px solid #bf1e2e;
+		}
+		
+		#tabs ul li.ui-tabs-active a:link, #tabs ul li.ui-tabs-active a:visited,
+		#tabs ul {
+			border-bottom: 1px solid #bf1e2e;
+		}
+	
+		
+		
+		/* accent color */
+		
+		.main.accentbg {
+			background: #cf6733;
+		}
+	
+		
+		
+		
+	

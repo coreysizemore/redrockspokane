@@ -47,7 +47,9 @@
 		#accordion div.ui-accordion-content a:link, #accordion div.ui-accordion-content a:visited,
 		#tabs ul li.ui-tabs-active a:link, #tabs ul li.ui-tabs-active a:visited,
 		#tabs div.ui-tabs-panel a:link, #tabs div.ui-tabs-panel a:visited,
-		#tabs ul li a:hover, #tabs ul li a:active {
+		#tabs ul li a:hover, #tabs ul li a:active,
+		.content h2.page_heading,
+		article.blog_entry .tagcloud a:link, article.blog_entry .tagcloud a:visited {
 			color: <?php the_field('layout_primary_color', 'options');?>;
 		}
 		
@@ -55,12 +57,13 @@
 		.content form input[type="submit"],
 		.appointment,
 		.edit_button a:link, .edit_button a:visited,
-		#home_logo #home_page_nav ul li a:link, #home_logo #home_page_nav ul li a:visited,
+		#home_logo #home_page_nav ul li a:link .icon, #home_logo #home_page_nav ul li a:visited .icon,
 		.content a.button:link, .content a.button:visited {
 			background: <?php the_field('layout_primary_color', 'options');?>;
 		}
 		
-		.content form input[type="text"], .content form input[type="email"], .content form input[type="number"], .content form input[type="submit"], .content form textarea {
+		.content form input[type="text"], .content form input[type="email"], .content form input[type="number"], .content form input[type="submit"], .content form textarea,
+		article.blog_entry .tagcloud a:link, article.blog_entry .tagcloud a:visited {
 			border: 1px solid <?php the_field('layout_primary_color', 'options');?>;
 		}
 		
