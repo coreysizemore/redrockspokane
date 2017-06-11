@@ -146,6 +146,12 @@ header.page_default_image.contact-us {
 }
 
 .content {
+	
+	img.venue_logo {
+		height: auto;
+		margin: 20px;
+		width: 100px;
+	}
 
 	.testimonials-widget {
 			
@@ -233,6 +239,15 @@ header.page_default_image.contact-us {
 		background: url('../img/contact_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
+	}
+	
+	.content {
+	
+		img.venue_logo {
+			height: auto;
+			margin: 20px;
+			width: 60px;
+		}
 	}
 	
 }
