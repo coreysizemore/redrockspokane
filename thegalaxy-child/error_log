@@ -1,0 +1,8 @@
+[04-Jul-2018 22:28:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/coreysizemore1/public_html/redrockspokane.com/wp-content/themes/thegalaxy-child/header.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/coreysizemore1/public_html/redrockspokane.com/wp-content/themes/thegalaxy-child/header.php on line 12
+[04-Jul-2018 22:28:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/coreysizemore1/public_html/redrockspokane.com/wp-content/themes/thegalaxy-child/header.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/coreysizemore1/public_html/redrockspokane.com/wp-content/themes/thegalaxy-child/header.php on line 12
