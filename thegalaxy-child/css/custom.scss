@@ -29,6 +29,16 @@ header {
 			}
 		}
 	}
+	
+	#nav_bar {
+		&.bottom_navigation {
+			background: rgba(0,0,0,.25);
+			
+			&.scroll-fix {
+				background: #ffffff;
+			}
+		}
+	}
 }
 
 #parallax {
@@ -91,12 +101,21 @@ a#searchopen:link, a#searchopen:visited, a#mobileopen:link, a#mobileopen:visited
 
 #attention_bar {
 	background: $colorone;
+	
+	.attention_bar_top,
+	.attention_bar_bottom {
+		ul {
+			li {
+				a:link,
+				a:visited {
+					color: $colorone;
+				}
+			}
+		}
+	}
 }
 
 /* home logo */
-
-
-
 
 
 /* content */
