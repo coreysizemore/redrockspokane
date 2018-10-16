@@ -89,7 +89,7 @@ header {
 /* mobile menu & search button */
 
 a#searchopen:link, a#searchopen:visited, a#mobileopen:link, a#mobileopen:visited {
-	color: $colorone;
+	background: $colorone;
 }
 
 #search,
