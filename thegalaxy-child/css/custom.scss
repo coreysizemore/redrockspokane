@@ -95,6 +95,20 @@ a#searchopen:link, a#searchopen:visited, a#mobileopen:link, a#mobileopen:visited
 #search,
 #mobile_nav {
 	background: rgba($colorone, .95);
+	
+	#searchform {
+		input[type="submit"] {
+			color: $colorone;
+		}
+	}
+	
+	.mobile_nav_wrapper {
+		#mobile_search {
+			input[type="submit"] {
+				color: $colorone;
+			}
+		}
+	}
 }
 
 /* appointment bar */
@@ -173,6 +187,19 @@ a#searchopen:link, a#searchopen:visited, a#mobileopen:link, a#mobileopen:visited
 			background: transparent;
 			border: 2px solid $colorone;
 			border-radius: 5px;
+		}
+	}
+	
+	.business_information_wrapper {
+		background: $colorone;
+		
+		h3 {
+			color: #ffffff;
+		}
+		
+		a:link,
+		a:visited {
+			color: #ffffff;
 		}
 	}
 }
