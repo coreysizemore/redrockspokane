@@ -204,6 +204,24 @@ a#searchopen:link, a#searchopen:visited, a#mobileopen:link, a#mobileopen:visited
 	}
 }
 
+#tripleseat_embed_form {
+	input[type="text"],
+	select,
+	textarea {
+		border-radius: 5px;
+		padding: 10px 20px;
+	}
+	
+	input[type="submit"] {
+		background: $colorone;
+		border-radius: 5px;
+		display: inline-block;
+		color: #fff;
+		padding: 10px 20px;
+		font-size: 18px;
+	}
+}
+
 /* blog updates */
 
 .blog_home {
